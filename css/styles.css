@@ -1,0 +1,240 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top:150px;
+}
+
+.bottom-container{
+
+ background-color: #66BFBF;
+
+ padding: 50px 0 20px;
+}
+
+.middle-container{
+font-weight: bold;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color:#11999E;
+  text-decoration-line: none;
+  margin:10px 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+h1{
+  color:#66BFBF;
+  margin: 50px auto 0 auto;
+  font-family:'Sacramento', cursive;
+  font-size: 5.625rem;
+
+
+}
+
+h2{
+  color:#66BFBF;
+  font-size: 1.5rem;
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h3{
+  color:#11999E;
+  font-family:'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+.react{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position: absolute;
+  top:75px;
+  right:300px;
+}
+
+.bottom-cloud{
+position: absolute;
+left:250px;
+bottom: 300px;
+}
+
+.skills{
+margin-top: 80px;
+font-weight: 400;
+}
+
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.sql-img{
+  width: 25%;
+  float: right;
+  margin-right: 20px;
+}
+
+
+.java-img{
+   width: 25%;
+   float:left;
+   margin-left: 20px;
+}
+
+.left-side-skills{
+  margin-left: 30%;
+}
+
+.right-side-skills{
+  margin-right:30%;
+}
+
+.profile{
+  width: 35%;
+  margin: 100px auto 100px auto;
+  color: #40514E;
+}
+
+.profile-imag{
+border-radius: 100%;
+
+}
+
+hr{
+  width: 10%;
+  border-style:none;
+  border-top-style:dotted;
+  border-width:8px;
+  border-color:orange;
+  margin-left:45%;
+}
+
+.contact-btn{
+  color:white;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #11999E;
+  padding:10px;
+  border:none;
+  border-radius: 5px;
+}
+
+.contact-btn:hover{
+  cursor:pointer;
+  color:#EAF6F6;
+}
+
+.contact-msg{
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.contact-me{
+
+margin: 50px auto 50px auto;
+}
+
+.copy-right{
+  padding:20px 0;
+  color:#EAF6F6;
+  font-size: 0.75rem;
+}
+
+.education-container{
+  padding:80px;
+  text-align: center;
+  background-color: #EAF6F6;
+}
+
+.education-card{
+  padding:3% 2%;
+}
+
+.card-row{
+margin-top:3%;
+}
+
+
+.feature-box{
+  text-align: center;
+  padding:3%;
+}
+
+.icons{
+  font-size:4.5rem;
+  margin-bottom: 1rem;
+  color: #11999E;
+
+}
+
+
+
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .nav-item{
+    padding: 0 25px;
+  }
+
+  .nav-link{
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 1.2rem;
+    color: #11999E;
+  }
+
+  .navbar{
+    padding: 2rem 3rem 0 0;
+    background-color: #EAF6F6;
+
+  }
+
+
+/* projects */
+
+#projects{
+  text-align: center;
+
+  background-color: lightgrey;
+  line-height: 1.5;
+  color:grey;
+}
+
+.carousel-item{
+  padding: 3% 20%;
+
+}
+
+.project-heading{
+  color:#66BFBF;
+  font-size: 1.5rem;
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+  padding:2%;
+}
+
+.carousel-btn{
+  color: black;
+}
